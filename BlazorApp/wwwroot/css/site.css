@@ -1,0 +1,40 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  background: #f7f7fb;
+  color: #1f1f1f;
+}
+
+.page {
+  min-height: 100vh;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.brand {
+  font-weight: 600;
+  color: #3b3bce;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #1f1f1f;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+main {
+  padding: 2rem;
+}
